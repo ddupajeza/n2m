@@ -1,15 +1,22 @@
-const Discord = require('discord.js');
-const client = new Discord.Client();
+// server.js
+// where your node app starts
 
-client.on('ready', () => {
-console.log(`Logged in as ${client.user.tag}!`);
-console.log("Streamstatus by DayZoonHD")
+// init project
+const express = require("express");
+const app = express();
 
-client.user.setActivity(`i don't like you`, {
-type: "STREAMING",
-url: "https://www.twitch.tv/ninja"})
-    .then(presence => console.log(`Your Status has been set to  ${presence.game ? presence.game.none : 'none'}`))
-    .catch(console.error);
+// we've started you off with Express,
+// but feel free to use whatever libs or frameworks you'd like through `package.json`.
+
+// http://expressjs.com/en/starter/static-files.html
+app.use(express.static("public"));
+
+// http://expressjs.com/en/starter/basic-routing.html
+app.get("/", function(request, response) {
+  response.sendFile(__dirname + "/views/index.html");
 });
 
-client.login('NjQzMTY2NDM3MDUzMDM4NjIy.XiIBJg.new1yJiDqYjtq6UeiUGUPWMXDT4');
+// listen for requests :)
+const listener = app.listen(process.env.PORT, function() {
+  console.log("Your app is listening on port " + listener.address().port);
+});
