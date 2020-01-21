@@ -5,9 +5,9 @@ client.on('ready', () => {
 console.log(`Logged in as ${client.user.tag}!`);
 console.log("Streamstatus by DayZoonHD")
 
-client.user.setActivity(`big 4x`, {
+client.user.setActivity(`lia?❤️`, {
 type: "STREAMING",
-url: "https://www.twitch.tv/tufe"})
+url: "https://www.twitch.tv/ninja"})
     .then(presence => console.log(`Your Status has been set to  ${presence.game ? presence.game.none : 'none'}`))
     .catch(console.error);
 });
