@@ -1,11 +1,11 @@
-tconst Discord = require('discord.js');
+client.user.setActivity(`step haconst Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
 console.log(`Logged in as ${client.user.tag}!`);
 console.log("Streamstatus by DayZoonHD")
 
-client.user.setActivity(`red light`, {
+client.user.setActivity(`step harder`, {
 type: "STREAMING",
 url: "https://www.twitch.tv/tufe"})
     .then(presence => console.log(`Your Status has been set to  ${presence.game ? presence.game.none : 'none'}`))
