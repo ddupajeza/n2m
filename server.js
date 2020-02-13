@@ -5,7 +5,7 @@ client.on('ready', () => {
 console.log(`Logged in as ${client.user.tag}!`);
 console.log("Streamstatus by DayZoonHD")
 
-client.user.setActivity(`bmw i8`, {
+client.user.setActivity(``, {
 type: "STREAMING",
 url: "https://www.twitch.tv/tufe"})
     .then(presence => console.log(`Your Status has been set to  ${presence.game ? presence.game.none : 'none'}`))
