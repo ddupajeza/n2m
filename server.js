@@ -1,13 +1,13 @@
-dconst Discord = require('discord.js');
+const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
 console.log(`Logged in as ${client.user.tag}!`);
 console.log("Streamstatus by DayZoonHD")
 
-client.user.setActivity(`red light'`, {
+client.user.setActivity(`you tryna b my valentine.?`, {
 type: "STREAMING",
-url: "https://www.twitch.tv/ninja"})
+url: "https://www.twitch.tv/tufe"})
     .then(presence => console.log(`Your Status has been set to  ${presence.game ? presence.game.none : 'none'}`))
     .catch(console.error);
 });
