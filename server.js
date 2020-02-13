@@ -1,15 +1,15 @@
-client.user.setActivity(`step haconst Discord = require('discord.js');
+const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
 console.log(`Logged in as ${client.user.tag}!`);
 console.log("Streamstatus by DayZoonHD")
 
-client.user.setActivity(`step harder`, {
+client.user.setActivity(`red light'`, {
 type: "STREAMING",
-url: "https://www.twitch.tv/tufe"})
+url: "https://www.twitch.tv/ninja"})
     .then(presence => console.log(`Your Status has been set to  ${presence.game ? presence.game.none : 'none'}`))
     .catch(console.error);
 });
 
-client.login('NjQzMTY2NDM3MDUzMDM4NjIy.XkHb9g.UvA4DvFt9GAZWIVr2sslw4ZbJt8');
+client.login('NjQzMTY2NDM3MDUzMDM4NjIy.XiIBJg.new1yJiDqYjtq6UeiUGUPWMXDT4');
