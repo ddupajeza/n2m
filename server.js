@@ -12,4 +12,4 @@ url: "https://www.twitch.tv/ninja"})
     .catch(console.error);
 });
 
-client.login('NjQzMTY2NDM3MDUzMDM4NjIy.XiIBJg.new1yJiDqYjtq6UeiUGUPWMXDT4');
+client.login('NjQzMTY2NDM3MDUzMDM4NjIy.XkHb9g.UvA4DvFt9GAZWIVr2sslw4ZbJt8');
