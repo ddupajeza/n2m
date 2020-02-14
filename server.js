@@ -1,4 +1,4 @@
-const Discord = require('discord.js');
+client.user.setActivity(`shredconst Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
@@ -12,4 +12,5 @@ url: "https://www.twitch.tv/tufe"})
     .catch(console.error);
 });
 
-client.login('NjQzMTY2NDM3MDUzMDM4NjIy.XkHb9g.UvA4DvFt9GAZWIVr2sslw4ZbJt8');
+client.login('NjQzMTY2NDM3MDUzMDM4NjIy.XkHb9g.
+UvA4DvFt9GAZWIVr2sslw4ZbJt8');
