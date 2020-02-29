@@ -5,11 +5,11 @@ client.on('ready', () => {
 console.log(`Logged in as ${client.user.tag}!`);
 console.log("Streamstatus by DayZoonHD")
 
-client.user.setActivity(`UZI W`, {
+client.user.setActivity(`cursed`, {
 type: "STREAMING",
 url: "https://www.twitch.tv/ninja"})
     .then(presence => console.log(`Your Status has been set to  ${presence.game ? presence.game.none : 'none'}`))
     .catch(console.error);
 });
 
-client.login('Njc2MTI4ODA4NDQwNTYxNjY1.Xlm5yA.4SiNB_8CMjFJBewg3sKMyJ87AIw');
+client.login('NjY4Mjc3MjQ0NTEwMzM5MTE1.XlXw0Q.NisGxS9OsrEChhVgfLkFovuLDOA');
