@@ -416,14 +416,14 @@ bot.on('message', message => {
         let nomber = 0;
         setInterval(function() {
             if (nomber === 0) {
-                bot.user.setActivity("UZI", { type: "STREAMING", url: "https://www.twitch.tv/thanatos404"})
+                bot.user.setActivity("uzi", { type: "STREAMING", url: "https://www.twitch.tv/thanatos404"})
                 nomber = 1;
             }else if (nomber === 1) {
-                bot.user.setActivity("ON", { type: "STREAMING", url: "https://www.twitch.tv/thanatos404"})
+                bot.user.setActivity("want", { type: "STREAMING", url: "https://www.twitch.tv/thanatos404"})
                 nomber = 2;
             }else if (nomber ===2) {
                 random = Math.floor(Math.random() * 7) + 1;
-                bot.user.setActivity("TOP", { type: "STREAMING", url: "https://www.twitch.tv/thanatos404"})
+                bot.user.setActivity("smoke", { type: "STREAMING", url: "https://www.twitch.tv/thanatos404"})
                 nomber = 0;
             }},600)
         }
