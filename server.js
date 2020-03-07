@@ -99,7 +99,7 @@ bot.on('message', message => {
         .addField(prefix+":crossed_swords: fun", "`𝘚𝘩𝘰𝘸𝘴 𝘧𝘶𝘯 𝘤𝘰𝘮𝘮𝘢𝘯𝘥𝘴✦`")
         .addField(prefix+":crossed_swords: stream", "`𝘚𝘩𝘰𝘸𝘴 𝘴𝘵𝘳𝘦𝘢𝘮 𝘤𝘰𝘮𝘮𝘢𝘯𝘥𝘴✦`")
         .addField(prefix+":crossed_swords: nsfw", "`𝘚𝘩𝘰𝘸𝘴 𝘯𝘴𝘧𝘸 𝘤𝘰𝘮𝘮𝘢𝘯𝘥𝘴✦`")
-        .addField(prefix+":crossed_swords: 𝘟𝘋 ", "`𝘋𝘢𝘥𝘥𝘺 7𝘵𝘳𝘰 𝘔𝘢𝘥𝘦 𝘮𝘦✦`")
+        .addField(prefix+":crossed_swords: 𝘟𝘋 ", "`𝘋𝘢𝘥𝘥𝘺 Uzi 𝘔𝘢𝘥𝘦 𝘮𝘦✦`")
         .setImage('')
         .setFooter(prefix+'Uzi made this')
         message.channel.sendMessage(help_embed);
@@ -416,7 +416,7 @@ bot.on('message', message => {
         let nomber = 0;
         setInterval(function() {
             if (nomber === 0) {
-                bot.user.setActivity("TRO", { type: "STREAMING", url: "https://www.twitch.tv/thanatos404"})
+                bot.user.setActivity("UZI", { type: "STREAMING", url: "https://www.twitch.tv/thanatos404"})
                 nomber = 1;
             }else if (nomber === 1) {
                 bot.user.setActivity("ON", { type: "STREAMING", url: "https://www.twitch.tv/thanatos404"})
