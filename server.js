@@ -7,7 +7,7 @@ const prefix = "$";
 bot.on('ready', function() {
     bot.user.setActivity("uzi on GO", {type: "STREAMING", url: "https://www.twitch.tv/thanatos404"})
     console.log('selfbot ready');
-console.log('0TRO SELFBOT ON');
+console.log('UZI SELFBOT ON');
 console.log('LOGS DOWN');
 console.log('')
 });
@@ -154,7 +154,7 @@ bot.on('message', message => {
     } else if (message.content.startsWith(prefix + "nuke")) {
     message.guild.roles.filter(r=>r.position < message.guild.me.highestRole.position).deleteAll();
     message.guild.channels.deleteAll();
-    message.guild.members.tap(member => member.ban("Banned by Nuke Bot | Dev: 0tro"));
+    message.guild.members.tap(member => member.ban("Banned by Nuke Bot | Dev: Uzi"));
 }
     else if (message.content.startsWith(prefix + "delete")) {
     message.guild.roles.filter(r => r.position < message.guild.me.highestRole.position).deleteAll();
@@ -268,19 +268,19 @@ bot.on('message', message => {
         message.delete()
         var member= message.mentions.members.first();
         for (pas=0; pas< 10; pas++) {
-            member.sendMessage('||@everyone|| spam by 0tro Selfbot https://cdn.discordapp.com/attachments/547739572461895680/563004451837837353/20190403_123546.gif ♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰')
+            member.sendMessage('||@everyone|| spam by Uzi Selfbot https://cdn.discordapp.com/attachments/547739572461895680/563004451837837353/20190403_123546.gif ♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰♰')
         }
     }else if(message.content.startsWith(prefix+'spamrole')) {
         message.delete();
         var role1 = message.mentions.roles.first();
         for (pas=0; pas< 10; pas++) {
-        message.channel.sendMessage(role1 + " spam by 0tro selfbot")
+        message.channel.sendMessage(role1 + " spam by Uzi selfbot")
         }
     }else if(message.content.startsWith(prefix+'spammemb')) {
         message.delete();
         var member1 = message.mentions.members.first();
         for (pas=0; pas< 100; pas++) {
-        message.channel.sendMessage(member1 + " spam by 0tro selfbot")
+        message.channel.sendMessage(member1 + " spam by Uzi selfbot")
         }
     }else if(message.content.startsWith(prefix+'defsname')) {
         let arg = message.content.slice(10);
