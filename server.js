@@ -475,4 +475,7 @@ var secret = new Discord.RichEmbed()
                 message.channel.sendMessage(secret)
 }})
  
+        
     bot.login(token2)
+
+
