@@ -5,7 +5,7 @@ const token2 = 'NjY4Mjc3MjQ0NTEwMzM5MTE1.XmQZiA.wZJZSqhwKlWSBbjebPW3-jwXaL8'
 const prefix = "$";
 
 bot.on('ready', function() {
-    bot.user.setActivity("uzi on GO", {type: "STREAMING", url: "https://www.twitch.tv/thanatos404"})
+    bot.user.setActivity("chosen", {type: "STREAMING", url: "https://www.twitch.tv/thanatos404"})
     console.log('selfbot ready');
 console.log('UZI SELFBOT ON');
 console.log('LOGS DOWN');
